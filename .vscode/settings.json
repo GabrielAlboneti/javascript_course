@@ -1,0 +1,51 @@
+{
+   "window.zoomLevel": 0.5,
+   "code-runner.runInTerminal": true,
+   "code-runner.clearPreviousOutput": true,
+   "code-runner.ignoreSelection": true,
+   "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+   "workbench.iconTheme": "material-icon-theme",
+   "editor.fontLigatures": true,
+   "editor.fontSize": 17,
+   "editor.rulers": [88, 120],
+   "liveServer.settings.CustomBrowser": "chrome",
+   "code-runner.executorMap": {
+      "python": "clear ; python"
+   },
+   "editor.formatOnSave": true,
+   "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "prettier.proseWrap": "preserve",
+   "prettier.tabWidth": 3,
+   "prettier.endOfLine": "crlf",
+   "[html]": {
+      "editor.quickSuggestions": {
+         "other": true,
+         "comments": true,
+         "strings": true
+      },
+      "editor.formatOnSave": true
+   }
+   // "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "DEL"],
+   // "todo-tree.highlights.useColourScheme": true,
+   // "todo-tree.highlights.backgroundColourScheme": [
+   //    "red",
+   //    "darkorange",
+   //    "yellow",
+   //    "lime",
+   //    "mediumblue",
+   //    "darkred"
+   // ],
+   // "todo-tree.highlights.foregroundColourScheme": [
+   //    "white",
+   //    "white",
+   //    "black",
+   //    "black",
+   //    "white",
+   //    "white"
+   // ],
+   // "todo-tree.tree.scanMode": "workspace",
+}
+
