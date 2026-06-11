@@ -10,7 +10,8 @@
    "editor.rulers": [88, 120],
    "liveServer.settings.CustomBrowser": "chrome",
    "code-runner.executorMap": {
-      "python": "clear ; python"
+      "javascript": "clear; node",
+      "python": "clear; python"
    },
    "editor.formatOnSave": true,
    "editor.codeActionsOnSave": {
