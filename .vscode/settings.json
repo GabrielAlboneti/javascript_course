@@ -28,25 +28,26 @@
          "strings": true
       },
       "editor.formatOnSave": true
-   }
-   // "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "DEL"],
-   // "todo-tree.highlights.useColourScheme": true,
-   // "todo-tree.highlights.backgroundColourScheme": [
-   //    "red",
-   //    "darkorange",
-   //    "yellow",
-   //    "lime",
-   //    "mediumblue",
-   //    "darkred"
-   // ],
-   // "todo-tree.highlights.foregroundColourScheme": [
-   //    "white",
-   //    "white",
-   //    "black",
-   //    "black",
-   //    "white",
-   //    "white"
-   // ],
-   // "todo-tree.tree.scanMode": "workspace",
+   },
+   "todo-tree.general.tags": ["BUG", "HACK", "FIXME", "TODO", "XXX", "DEL"],
+   "todo-tree.highlights.useColourScheme": true,
+   "todo-tree.highlights.backgroundColourScheme": [
+      "red",
+      "darkorange",
+      "yellow",
+      "lime",
+      "mediumblue",
+      "darkred"
+   ],
+   "todo-tree.highlights.foregroundColourScheme": [
+      "white",
+      "white",
+      "black",
+      "black",
+      "white",
+      "white"
+   ],
+   "todo-tree.tree.scanMode": "workspace",
+   "todo-tree.ripgrep.ripgrep": "/usr/bin/rg"
 }
 
