@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="pt-BR">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Exercícios com Strings</title>
+   </head>
+   <body>
+      <script>
+         const nomeUsuario = prompt("Digite o seu nome completo:");
+         const segundaLetra = nomeUsuario.charAt(1);
+         const primeiraLetraA = nomeUsuario.indexOf("e");
+         const ultimaLetraA = nomeUsuario.lastIndexOf("e");
+         const ultimasLetras = nomeUsuario.slice(-3);
+         const vetorNome = nomeUsuario.split(" ");
+
+         document.body.innerHTML = `O seu nome é: ${nomeUsuario} <br/>`;
+         document.body.innerHTML += `O seu nome tem ${nomeUsuario.length} letras <br/>`;
+         document.body.innerHTML += `A segunda letra do seu nome é: ${segundaLetra} <br/>`;
+         document.body.innerHTML += `Qual o primeiro índice da letra e no seu nome? ${primeiraLetraA} <br/>`;
+         document.body.innerHTML += `Qual o último índice da letra e no seu nome? ${ultimaLetraA} <br/>`;
+         document.body.innerHTML += `As últimas 3 letras do seu nome são: ${ultimasLetras} <br/>`;
+         document.body.innerHTML += `As palavras do seu nome são: ${vetorNome} <br/>`;
+         document.body.innerHTML += `Seu nome com letras maiúsculas: ${nomeUsuario.toUpperCase()} <br/>`;
+         document.body.innerHTML += `Seu nome com letras minúsculas: ${nomeUsuario.toLowerCase()} <br/>`;
+      </script>
+   </body>
+</html>
+
