@@ -5,8 +5,21 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <title>Exercício Numbers</title>
    </head>
-   <body>
-      <h1 id="title"><strong>Seu número é</strong></h1>
+   <body style="font-size: 25px">
+      <section>
+         <h1>
+            <strong>Seu número é <span class="number">0</span></strong>
+         </h1>
+         <p>Raiz quadrada: <span id="sqr-root"></span></p>
+         <p>
+            <span class="number"></span> é inteiro:
+            <span id="bool-integer"></span>
+         </p>
+         <p>É NaN: <span id="bool-nan"></span></p>
+         <p>Arredondando para baixo: <span id="round-floor"></span></p>
+         <p>Arredondando para cima: <span id="round-up"></span></p>
+         <p>Com duas casas decimais: <span id="two-decimals"></span></p>
+      </section>
       <script src="./script.js"></script>
    </body>
 </html>
