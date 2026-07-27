@@ -20,7 +20,7 @@
   "homepage": "https://github.com/GabrielAlboneti/javascript_course#readme",
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "eslint": "^10.5.0",
-    "globals": "^17.6.0"
+    "eslint": "^10.8.0",
+    "globals": "^17.8.0"
   }
 }
