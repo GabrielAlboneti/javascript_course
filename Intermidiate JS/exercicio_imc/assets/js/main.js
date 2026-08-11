@@ -9,7 +9,7 @@ function errorMessage(message) {
 }
 
 function meuEscopo() {
-   const form = document.querySelector("form");
+   const form = document.querySelector(".form");
    const messageBox = document.querySelector(".message");
 
    function formEvent(event) {
